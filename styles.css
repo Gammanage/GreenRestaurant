@@ -1,0 +1,148 @@
+body{
+  font-family: 'Cormorant Garamond', serif; font-weight: bolder;
+}
+
+
+#title{
+  background-color: #F4F0E8;
+  background-image: url("CSS-My images/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+h1{
+  font-family: 'Cinzel', serif;font-size: 4.5rem; line-height: 1.5; color: #303b1a;
+}
+h2{
+  font-family: 'Cinzel', serif;
+}
+.title-body{
+  font-family: 'Cinzel', serif; font-size: 1.2rem; font-weight: bold; color: #303b1a;
+}
+.container-fluid{padding: 3% 7% 7% 7%
+}
+
+.navbar{padding-bottom: 4.5rem; padding-top: 0;
+}
+.navbar-brand{
+  font-family:'Ubuntu', sans-serif; font-weight: bold; font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 2rem 0 2rem;
+}
+.nav-link{
+  font-family:'Ubuntu', sans-serif;
+}
+
+.btn-dark{
+  color: white; background-color: #303b1a;
+}
+.btn-outline-light{
+  color: #303b1a; border-color: #303b1a;
+}
+.btn-light{
+  color: #303b1a; border-color: #303b1a;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.row{
+  border: solid; border-radius: 5px;
+}
+
+
+
+#features{
+  padding: 7% 15% ; background-color:#fefefe; position: relative; 
+}
+.features-box{
+  text-align: center; padding: 5%;
+}
+.feature-body{
+  font-size: 1.2rem;
+}
+.icon{
+  color: #303b1a; padding-bottom: 1rem; 
+}
+.icon:hover{
+  color: #5F7A61;
+}
+
+
+#testimonials{
+  text-align: center; background-color: #fefefe;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.carousel{
+  font-family: 'Cinzel', serif;font-size: 2rem
+}
+.carousel-image{
+  width: 30%; height: 30%; border-radius: 100%; margin-top: 1rem;
+}
+.carousel-control-next-icon{
+  background-color:  #303b1a; 
+}
+.carousel-control-prev-icon{
+  background-color:  #303b1a;
+}
+
+
+#press{
+  text-align: center; background-color: #fefefe;}
+.pitcure-one{
+  height: 12rem; width: 16rem; border-radius: 0 25% 25% 25%; margin: 2px 18px 15px 18px;
+}
+
+#pricing{
+  padding: 100px; text-align: center;
+}
+.pricing-body{
+  font-size: 1.2rem;
+}
+.pricing-colunm{
+padding: 3% 2%;
+}
+.card-header{
+  background-color: #303b1a;
+}
+.card-class{
+  color: white;
+}
+.btn-success{
+  background-color: #303b1a;
+}
+.btn-outline-success{
+  color: #303b1a; border-color: #303b1a;
+}
+
+
+#cta{
+ background-color: #fefefe; padding: 7% 15%; text-align: center; 
+}
+
+.cta-heading{
+  font-size: 2rem; line-height: 2rem;font-family: 'Cinzel', serif;
+}
+
+#footer{
+  background-image: url("CSS-My images/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+ padding: 7% 15%; text-align: center;
+}
+.footer-icon{
+ margin: 20px 10px;
+}
+
+@media only screen and (max-width: 993px) {
+ .card{
+    text-align: center;
+ } 
+ #title{
+     text-align: center;
+ }
+
+}
+
+
